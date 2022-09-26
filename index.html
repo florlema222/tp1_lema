@@ -11,34 +11,36 @@
 </head>
 <body>
 <!-- navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container-fluid">
-      <div>
-        <a class="navbar-brand" href="#">
-          <img src="/css/images/codoacodo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-          Conf Bs As
-        </a>
+  <header class="sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark stick">
+      <div class="container-fluid">
+        <div>
+          <a class="navbar-brand pl-5" href="#">
+            <img src="/css/images/codoacodo.png" alt="Logo" width="100" height="70" class="d-inline-block align-center imgXs">
+            Conf Bs As
+          </a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">La Conferencia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Los oradores</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">El lugar y la fecha</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Conviertete en orador</a>
+            </li> <li class="nav-item">
+              <a class="nav-link" href="#">Comprar tickets</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">La Conferencia</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Los oradores</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">El lugar y la fecha</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Conviertete en orador</a>
-          </li> <li class="nav-item">
-            <a class="nav-link" href="#">Comprar tickets</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+    </nav>
+  </header>
 <!--banner -->
   <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
@@ -104,10 +106,78 @@
         </div>
     </div>
   </section>
-<!--img/texto -->
+  <!--img/texto -->
+  <section>
+    <div class="card mb-3 mt-5 bg-dark text-white" style="max-width: 100%;">
+        <div class="row no-gutters">
+            <div class="col-md-6">
+                <img src="css/images/honolulu.jpg" class="card-img" alt="..." width="100%">
+            </div>
+            <div class="col-md-6">
+                <div class="card-body">
+                    <h3 class="card-title">Bs As - Octubre 2020</h3>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus libero nam ratione
+                        quo deserunt natus laborum voluptatum, consequuntur reiciendis sint magnam fuga cupiditate nostrum
+                        maiores debitis magni consequatur officiis sunt?Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Consequuntur dolor odio aliquid in iure voluptate laborum ut architecto ad illum.</p>
+                    <button type="button" class="btn btn-outline-light btn-sm">Conoce mas</button>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
 <!--formulario orador  -->
+  <section>
+    <h6 class="text-muted text-center mt-5">CONVERTITE EN UN</h6>
+    <h2 class="text-center">ORADOR</h2>
+    <p class="text-muted text-center">Anótate como orador para dar una <u>charla ignite</u>. ¡Cuéntanos sobre qué quieres hablar!</p>
+    <form>
+        <div class="row">
+            <div class="col-md-6 mt-4">
+                <input type="text" class="form-control" placeholder="Nombre">
+            </div>
+            <div class="col-md-6 mt-4">
+                <input type="text" class="form-control" placeholder="Apellido">
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-12 form-group">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Sobre que queres hablar?"></textarea>
+                <small id="passwordHelpBlock" class="form-text text-muted">
+                    Recuerda incluir un titulo para tu charla
+                </small>
+            </div>
+        </div>
+        <button type="submit" class="btn bg-success text-white boton">Enviar</button>
+    </form>
+  </section>
 <!--footer -->
-
+  <footer class="bg-dark mt-5">
+  <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light justify-content-center text-center">
+          <ul class="navbar-nav">
+              <li class="nav-item marginFooter">
+              <a class="nav-link text-white" href="#">Preguntas Frecuentes<span class="sr-only"></span></a>
+              </li>
+              <li class="nav-item marginFooter">
+                  <a class="nav-link text-white" href="#">Contactanos<span class="sr-only"></span></a>
+              </li>
+              <li class="nav-item marginFooter">
+                  <a class="nav-link text-white" href="#">Prensa<span class="sr-only"></span></a>
+              </li>
+              <li class="nav-item marginFooter">
+                  <a class="nav-link text-white" href="#">Terminos y condiciones<span class="sr-only"></span></a>
+              </li>
+              <li class="nav-item marginFooter">
+                  <a class="nav-link text-white" href="#">Privacidad<span class="sr-only"></span></a>
+              </li>
+              <li class="nav-item marginFooter">
+                  <a class="nav-link text-white" href="#">Estudiantes<span class="sr-only"></span></a>
+              </li>
+          </ul>
+      </nav>
+  </div>
+  </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
 </body>

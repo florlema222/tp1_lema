@@ -1,3 +1,24 @@
+
+.pl-5 {
+  padding-left: 3rem!important;
+}
+
+.imgnav {
+  width: 100px;
+  aspect-ratio: auto 100 / 70;
+  height: 70px;
+  vertical-align: middle;
+  border-style: none;
+}
+.navbar-brand {
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
 #navbarText {
   display: flex;
   justify-content: flex-end !important;
@@ -78,4 +99,72 @@ p {
 img {
   vertical-align: middle;
   border-style: none;
+}
+
+.card-deck {
+    display: flex;
+    flex-flow: row wrap;
+    width: 70%;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+}
+
+
+.badge-warning {
+    color: #212529;
+    background-color: #ffc107;
+}
+
+.badge-info {
+  color: #fff;
+  background-color: #17a2b8;
+}
+
+.badge-secondary {
+  color: #fff;
+  background-color: #6c757d;
+}
+
+.badge-danger {
+  color: #fff;
+  background-color: #dc3545;
+}
+
+form {
+  max-width: 50%;
+  margin: auto;
+}
+.bg-success {
+  background-color: #28a745!important;
+}
+
+
+.btn {
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.boton:hover {
+  background-color: #3A7E34!important;
+}
+
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+.boton {
+  width: 100%;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.marginFooter {
+  margin: 2%;
 }
