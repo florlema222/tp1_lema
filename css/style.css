@@ -1,0 +1,81 @@
+#navbarText {
+  display: flex;
+  justify-content: flex-end !important;
+}
+
+#nav-item {
+  align-self: flex-end;
+}
+
+.text-white {
+  color: #fff!important;
+}
+.text-right {
+  text-align: right!important;
+}
+
+.carousel {
+  position: relative;
+}
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 20px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 50%;
+  padding: 1%;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin-left: 25%;
+  margin-bottom: 20%;
+
+}
+
+.h1, h1 {
+  font-size: 2.5rem;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.card-deck .card {
+  flex: 1 0 0%;
+  margin-right: 15px;
+  margin-bottom: 0;
+  margin-left: 15px;
+}
+
+.card-img, .card-img-top {
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+}
+.card-img, .card-img-bottom, .card-img-top {
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 100%;
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+}
